@@ -110,6 +110,11 @@ html {
   cursor: pointer;
 }
 
+.card:active {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .card::before {
   content: "";
   position: absolute;
@@ -185,6 +190,11 @@ span {
 }
 
 .content-icons i:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.content-icons i:active {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.5);
   cursor: pointer;
