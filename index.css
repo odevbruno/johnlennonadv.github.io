@@ -127,7 +127,7 @@ html {
       rgba(0, 37, 82, 0.841),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/bg1.jpg");
+    url("./bg1.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(2px);
